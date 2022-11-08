@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
     public Slider timeSlider;
     public TMP_Text timerText;
     public float gameTime;
-    private bool stopTimer;
+    [SerializeField] private bool stopTimer;
 
 
     private void Awake()
